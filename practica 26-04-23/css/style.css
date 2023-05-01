@@ -1,0 +1,136 @@
+.container a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400px;
+    margin: 0 10px;
+
+}
+
+
+
+.img img {
+    width: 100%;
+    height: 450px;
+ }
+
+.Encabezado-wave h2{
+    position: absolute;
+    top: 22%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.boton button{
+    display: inline-block;
+    background: #fff;
+    color: #009aff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 30px;
+    margin-top: 30px;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    border: 2px solid #009aff;
+    width: 250px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70%;
+    right: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.Encabezado-wave p{
+    position: absolute;
+    top: 30%;
+    left: 16.4%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.img-car img{
+    position: absolute;
+    top: 50%;
+    right: -12%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 280px;
+}
+
+.about-us{
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background: #fff;
+}
+
+.about-us h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 60px;
+}
+
+/* Centra el h2 de la clase "services" */
+.services h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 60px;
+}
+
+/* A los h3 de la clase "row" centralos */
+.row h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+/* A los parrafos de la clase "row" agregale un fondo redondeado */
+.row p{
+    border-radius: 20px;
+    padding: 20px;
+    background: #009aff;
+    color: #fff;
+}
+
+/*  a la clase carousel pon el h2 en el centro y dale un poco de espacio de la seccion anterior */ 
+.carousel h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+/* de la clase container estiliza los iconos de las redes sociales */  
+.container .row .col-md-3{
+    text-align: center;
+    font-size: 30px;
+    color: #009aff;
+    margin: 20px;
+    transition: all 0.3s ease;
+    /* reduce el tamaño de las imagenes para que parezcan iconos */
+    width: 50px;
+    height: 50px;
+
+    
+}
+
+
